@@ -10,10 +10,9 @@ from .models import Departments,Doctors
 # Create your views here.
 
 def index(request):
-    return render(request,'portfolio.html',)
-
-def project_1(request):
     return render(request,'index.html',)
+
+
 
 def about(request):
     return render(request,'about.html')
